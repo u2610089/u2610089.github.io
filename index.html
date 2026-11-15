@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toxir | Student field notes</title>
+  <meta name="description" content="Personal homepage of a first-year IT student at Inha University in Tashkent.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="bar">
+      <a class="logo" href="#top" aria-label="Home"><span class="logo-mark">t.</span><span class="logo-name">Toxir</span></a>
+      <nav aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#projects">Projects</a>
+        <a href="#network">Network</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch between light and dark mode" title="Switch theme">
+        <span id="theme-icon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Student field notes</p>
+        <div class="name-row">
+          <img class="avatar" src="photo.jpg" alt="Portrait of Toxir" width="96" height="96" onerror="this.style.display='none'">
+          <h1>Hi, I'm <em>Toxir</em>.</h1>
+        </div>
+        <p class="lead">I'm a first-year IT student at <strong>Inha University in Tashkent</strong>. This is my notebook for the things I'm learning, building and figuring out along the way.</p>
+        <a class="btn" href="#projects">Explore my projects <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="laptop">
+          <div class="screen"><span>&gt;_</span></div>
+          <div class="base"></div>
+        </div>
+        <span class="fig">FIG. 01 · Personal workstation</span>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <p class="eyebrow">01 / About me</p>
+      <h2>About me.</h2>
+      <div class="two-col">
+        <p>I study Information Technology and I like understanding how things work under the hood: networks, the web, and the code behind them. Right now I'm learning to read packets, build web pages and publish them on the Internet.</p>
+        <ul class="facts">
+          <li><span>Studying</span> IT at Inha University in Tashkent</li>
+          <li><span>Year</span> First</li>
+          <li><span>Interests</span> Networks, web, problem solving</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="courses" class="section">
+      <p class="eyebrow">02 / Coursework</p>
+      <h2>My courses.</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Course 01</span>
+          <h3>Introduction to IT</h3>
+          <p>How computers, networks and the Internet work, from IP addresses to HTTPS.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Course 02</span>
+          <h3>Calculus</h3>
+          <p>Limits and derivatives, and how they describe change.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Course 03</span>
+          <h3>English</h3>
+          <p>Practising clear writing and finding the right words.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <p class="eyebrow">03 / Projects</p>
+      <h2>Projects.</h2>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">Lab 8a</span>
+          <h3>Network detective</h3>
+          <p>Notes from tracing packets across routers, questioning DNS servers and seeing why HTTPS matters.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Lab 8b</span>
+          <h3>This homepage</h3>
+          <p>Built with HTML, CSS and JavaScript, then published for free on GitHub Pages.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Next</span>
+          <h3>Coming soon</h3>
+          <p>More projects will land here as the semester goes on.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="network" class="section">
+      <p class="eyebrow">04 / Lab 8a</p>
+      <h2>Network detective.</h2>
+      <p>What I found out about my connection to the Internet:</p>
+      <div class="grid">
+        <article class="card">
+          <span class="tag">ISP</span>
+          <h3>Uzbektelekom (AS8193)</h3>
+          <p>The network (Autonomous System) my Internet provider runs.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Router</span>
+          <h3>Huawei</h3>
+          <p>The company that made my home router, found from its hardware address.</p>
+        </article>
+        <article class="card">
+          <span class="tag">Distance</span>
+          <h3>30 hops</h3>
+          <p>How many routers a packet crosses to reach inha.uz.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <p class="eyebrow">05 / Contact</p>
+      <h2>Contact.</h2>
+      <p>Want to say hello or work on something together?</p>
+      <div class="links">
+        <a class="btn" href="mailto:you@example.com">Email me</a>
+        <a class="btn ghost" href="https://github.com/USERNAME" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Toxir · Made with HTML, CSS and JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
